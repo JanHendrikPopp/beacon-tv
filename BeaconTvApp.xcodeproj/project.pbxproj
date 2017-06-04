@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0C9FE61EE46F8500664B4D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C9FE51EE46F8500664B4D /* logo.png */; };
+		3F297A3E1EE48E20007B1C52 /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F297A3B1EE48E20007B1C52 /* paper.jpg */; };
+		3F297A3F1EE48E20007B1C52 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F297A3C1EE48E20007B1C52 /* rock.png */; };
+		3F297A401EE48E20007B1C52 /* scissor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F297A3D1EE48E20007B1C52 /* scissor.png */; };
 		3F4F1D561EBDEBBD00C59837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F1D551EBDEBBD00C59837 /* AppDelegate.swift */; };
 		3F4F1D581EBDEBBD00C59837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F1D571EBDEBBD00C59837 /* ViewController.swift */; };
 		3F4F1D5B1EBDEBBD00C59837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4F1D591EBDEBBD00C59837 /* Main.storyboard */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0C9FE51EE46F8500664B4D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3F297A3B1EE48E20007B1C52 /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
+		3F297A3C1EE48E20007B1C52 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		3F297A3D1EE48E20007B1C52 /* scissor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissor.png; sourceTree = "<group>"; };
 		3F4F1D521EBDEBBD00C59837 /* BeaconTvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconTvApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4F1D551EBDEBBD00C59837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F4F1D571EBDEBBD00C59837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +103,10 @@
 		3F4F1D541EBDEBBD00C59837 /* BeaconTvApp */ = {
 			isa = PBXGroup;
 			children = (
+				3F297A3B1EE48E20007B1C52 /* paper.jpg */,
+				3F297A3C1EE48E20007B1C52 /* rock.png */,
+				3F297A3D1EE48E20007B1C52 /* scissor.png */,
+				3F0C9FE51EE46F8500664B4D /* logo.png */,
 				3F4F1D551EBDEBBD00C59837 /* AppDelegate.swift */,
 				3F4F1D571EBDEBBD00C59837 /* ViewController.swift */,
 				3F4F1D591EBDEBBD00C59837 /* Main.storyboard */,
@@ -229,8 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F297A3E1EE48E20007B1C52 /* paper.jpg in Resources */,
+				3F297A3F1EE48E20007B1C52 /* rock.png in Resources */,
+				3F297A401EE48E20007B1C52 /* scissor.png in Resources */,
 				3F4F1D5D1EBDEBBD00C59837 /* Assets.xcassets in Resources */,
 				3F4F1D5B1EBDEBBD00C59837 /* Main.storyboard in Resources */,
+				3F0C9FE61EE46F8500664B4D /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +511,7 @@
 				3F4F1D791EBDEBBE00C59837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F4F1D7A1EBDEBBE00C59837 /* Build configuration list for PBXNativeTarget "BeaconTvAppTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +520,7 @@
 				3F4F1D7C1EBDEBBE00C59837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F4F1D7D1EBDEBBE00C59837 /* Build configuration list for PBXNativeTarget "BeaconTvAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +529,7 @@
 				3F4F1D7F1EBDEBBE00C59837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
